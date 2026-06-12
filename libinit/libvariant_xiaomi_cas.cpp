@@ -6,19 +6,19 @@
 
 #include <libvariant.h>
 
-static const variant_info cmi_info = {
+static const variant_info cas_info = {
     .hwc_value = "",
     .sku_value = "",
 
     .brand = "Xiaomi",
-    .device = "cmi",
-    .marketname = "",
-    .model = "Mi 10 Pro",
-    .build_fingerprint = "Xiaomi/cmi_global/cmi:13/RKQ1.211001.001/V816.0.2.0.TJAMIXM:user/release-keys",
+    .device = "cas",
+    .marketname = "Mi 10 Ultra",
+    .model = "M2007J1SC",
+    .build_fingerprint = "Xiaomi/cas/cas:13/TKQ1.221114.001/V816.0.4.0.TJJCNXM:user/release-keys",
 
     .nfc = true,
 };
 
 const std::vector<variant_info> variants = {
-    cmi_info,
+    cas_info,
 };
